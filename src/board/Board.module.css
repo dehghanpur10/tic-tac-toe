@@ -6,14 +6,31 @@
 }
 .main{
     min-width: 100%;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+
 }
 .board{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 60%;
-    height: 400px;
-    background-color: red;
 }
-.reset_button{
-    margin-top: 40px;
+.board-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.turn{
+    margin-top: 10px;
+    font-width: 600!important;
+    color: #f57c00;
+}
+
+@media screen and (max-width: 480px) {
+    .board{
+        width: 100%;
+    }
 }
