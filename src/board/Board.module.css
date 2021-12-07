@@ -15,11 +15,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 50%;
-    /*background-color: red;*/
+    width: 60%;
 }
 .board-row{
-    min-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -29,7 +28,7 @@
     font-width: 600!important;
     color: #f57c00;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     .board{
         width: 100%;
     }
