@@ -28,8 +28,7 @@
     font-width: 600!important;
     color: #f57c00;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
     .board{
         width: 100%;
     }

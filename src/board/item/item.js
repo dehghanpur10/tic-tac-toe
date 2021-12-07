@@ -15,7 +15,9 @@ function Item(props) {
 
     return (
         <ThemeProvider theme={theme}>
-            <Button variant="outlined"  className={classes.button}>{props.type}</Button>
+            <Button variant="outlined"  className={classes.button} onClick={()=>{
+                props.action(props.index)
+            }}>{props.type}</Button>
         </ThemeProvider>
     );
 }
