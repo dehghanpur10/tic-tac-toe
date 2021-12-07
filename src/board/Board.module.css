@@ -1,0 +1,19 @@
+.container{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.board{
+    width: 60%;
+    height: 400px;
+    background-color: red;
+}
+.reset_button{
+    margin-top: 40px;
+}
